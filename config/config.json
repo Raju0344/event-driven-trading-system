@@ -1,0 +1,27 @@
+{
+    "COMMENT_1": "********************MYSQL DETAILS**************************",
+    "USER": "root",
+    "RAW_PASSWORD": "Raju@2025#Db",
+    "HOST": "localhost",
+    "DB": "indian_stock_market",
+    "working_directory": "/home/raju/MAIN_DIRECTORY/zerodha",
+    "COMMENT_2": "*********************LIVE DETAILS************************************",
+    "api_key": "vbxxs65lg6m7eo9h",
+    "api_secret": "f7bu3067l9qzlejfn07q5mosp391k9x5",
+    "request_token": "JdLyRe7QbjKFociFQ2QKR5C96kgquGMs",
+    "access_token": "6qI0mfYj3g1fmdPuyS1Q3Plfj4dip1we",
+    "exchange": "NSE",
+    "COMMENT_3": "******************************HISTORICAL DATA*****************",
+    "last_updated_date": "2026-02-10T16:41:23.080945",
+    "time_frame": "5minute",
+    "COMMENT_4": "*******************BACKTESTING DETAILS******************************",
+    "initial_capital": 10000,
+    "heartbeat": 0,
+    "start_date": "2026-01-22T00:00:00",
+    "sequential_processing": false,
+    "mode": "backtesting",
+    "symbol_list": [
+        "YESBANK",
+        "PSB"
+    ]
+}
