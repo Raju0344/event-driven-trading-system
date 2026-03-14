@@ -22,7 +22,7 @@ Project Structure:
 event-driven-trading-system/
 
 │
-├── broker/           # Broker integrations (e.g., Zerodha, Alpaca, Binance)
+├── broker/           # Broker integrations (e.g., Zerodha, Delta Exchange Indian)
 ├── config/           # JSON/YAML configuration files (API keys, database settings)
 ├── core/             # Core engine and event loop implementation
 ├── data/             # Data handlers (live_data_handler, simulated_data_handler)
@@ -491,7 +491,7 @@ The following tables are required by the trading system.
 
 ---
 
-## 3. Exchange Table
+## 1. Exchange Table
 
 ```sql
 CREATE TABLE `exchange` (
@@ -512,7 +512,7 @@ COLLATE=utf8mb4_unicode_ci;
 
 ---
 
-## 4. Data Vendor Table
+## 2. Data Vendor Table
 
 ```sql
 CREATE TABLE `data_vendor` (
@@ -531,7 +531,7 @@ COLLATE=utf8mb4_unicode_ci;
 
 ---
 
-## 5. Symbol Table
+## 3. Symbol Table
 
 ```sql
 CREATE TABLE `symbol` (
@@ -555,7 +555,7 @@ CREATE TABLE `symbol` (
 
 ---
 
-## 6. Price Table
+## 4. Price Table
 
 ```sql
 CREATE TABLE `daily_price` (
