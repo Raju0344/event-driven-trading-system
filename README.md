@@ -120,7 +120,7 @@ Portfolio Updated
 
 ## Live Trading Setup (Zerodha)
 
-To run the system in **live trading mode**, follow these steps:
+To run the system in **live trading mode**, Edit the file config/config.json:
 
 ```json
 {
