@@ -1,6 +1,6 @@
 # Event Driven Trading System
 
-A modular **event-driven trading engine** designed for both **live trading** and **historical backtesting**.
+A modular **event-driven trading engine** designed for **eauity live trading**, **paper trading** and **historical backtesting**.
 The system separates market data, strategy logic, risk management, and portfolio management using an event-driven architecture similar to professional quantitative trading systems.
 
 ---
