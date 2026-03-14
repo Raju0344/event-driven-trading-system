@@ -1,3 +1,4 @@
+![PyPI](https://img.shields.io/pypi/v/event-driven-trading-system)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 # Event Driven Trading System
