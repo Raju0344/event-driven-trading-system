@@ -1,7 +1,7 @@
 {
     "COMMENT_1": "********************MYSQL DETAILS**************************",
     "USER": "root",
-    "RAW_PASSWORD": "Raju@2025#$_",
+    "RAW_PASSWORD": "**********",
     "HOST": "localhost",
     "DB": "indian_stock_market",
     "working_directory": "/home/raju/Directory/Event-driven-Trading-System",
