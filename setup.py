@@ -9,12 +9,16 @@ setup(
         "numpy",
         "matplotlib",
         "statsmodels",
-        "kiteconnect",
-        "sqlalchemy",
-        "pymysql",
-        "mysql-connector-python"
+        "mysql-connector-python",
+        "kiteconnect"
     ],
     author="Raju",
     description="Event driven trading system for Indian equity market",
     python_requires=">=3.8",
+
+    entry_points={
+        "console_scripts": [
+            "trader=event_driven_trading_system.cli:run",
+        ],
+    },
 )
