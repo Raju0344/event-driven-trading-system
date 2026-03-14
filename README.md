@@ -1,3 +1,5 @@
+![License](https://img.shields.io/badge/license-MIT-green)
+
 # Event Driven Trading System
 
 A modular **event-driven trading engine** designed for **eauity live trading**, **paper trading** and **historical backtesting**.
